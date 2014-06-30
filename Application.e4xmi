@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_sRIesAA8EeSpNIrzGNpOeg" elementId="org.eclipse.e4.ide.application" bindingContexts="_sRJFwAA8EeSpNIrzGNpOeg">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_sRIesQA8EeSpNIrzGNpOeg" label="git.spielwiese" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_sRJs0gA8EeSpNIrzGNpOeg">
+      <children xsi:type="advanced:Perspective" xmi:id="_sRJs0wA8EeSpNIrzGNpOeg">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_sRJs1AA8EeSpNIrzGNpOeg">
+          <children xsi:type="basic:PartStack" xmi:id="_sRJs1QA8EeSpNIrzGNpOeg">
+            <children xsi:type="basic:Part" xmi:id="_sRJs1gA8EeSpNIrzGNpOeg" contributionURI="bundleclass://git.spielwiese/git.spielwiese.parts.SamplePart" label="Sample Part"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_sRJF0AA8EeSpNIrzGNpOeg" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_sRJF0QA8EeSpNIrzGNpOeg" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_sRJF0gA8EeSpNIrzGNpOeg" label="Open" iconURI="platform:/plugin/git.spielwiese/icons/sample.png" command="_sRJFxwA8EeSpNIrzGNpOeg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_sRJF0wA8EeSpNIrzGNpOeg" label="Save" iconURI="platform:/plugin/git.spielwiese/icons/save_edit.png" command="_sRJFygA8EeSpNIrzGNpOeg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_sRJF1AA8EeSpNIrzGNpOeg" label="Quit" command="_sRJFwwA8EeSpNIrzGNpOeg"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_sRJs0AA8EeSpNIrzGNpOeg" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_sRJs0QA8EeSpNIrzGNpOeg" label="About" command="_sRJFzQA8EeSpNIrzGNpOeg"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_sRJs1wA8EeSpNIrzGNpOeg">
+      <children xsi:type="menu:ToolBar" xmi:id="_sRJs2AA8EeSpNIrzGNpOeg" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_sRJs2QA8EeSpNIrzGNpOeg" iconURI="platform:/plugin/git.spielwiese/icons/sample.png" command="_sRJFxwA8EeSpNIrzGNpOeg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_sRJs2gA8EeSpNIrzGNpOeg" iconURI="platform:/plugin/git.spielwiese/icons/save_edit.png" command="_sRJFygA8EeSpNIrzGNpOeg"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_sRJFxAA8EeSpNIrzGNpOeg" elementId="git.spielwiese.handler.quitCommand" contributionURI="bundleclass://git.spielwiese/git.spielwiese.handlers.QuitHandler" command="_sRJFwwA8EeSpNIrzGNpOeg"/>
+  <handlers xmi:id="_sRJFyAA8EeSpNIrzGNpOeg" elementId="git.spielwiese.handler.openCommand" contributionURI="bundleclass://git.spielwiese/git.spielwiese.handlers.OpenHandler" command="_sRJFxwA8EeSpNIrzGNpOeg"/>
+  <handlers xmi:id="_sRJFywA8EeSpNIrzGNpOeg" elementId="git.spielwiese.handler.saveCommand" contributionURI="bundleclass://git.spielwiese/git.spielwiese.handlers.SaveHandler" command="_sRJFygA8EeSpNIrzGNpOeg"/>
+  <handlers xmi:id="_sRJFzgA8EeSpNIrzGNpOeg" elementId="git.spielwiese.handler.aboutCommand" contributionURI="bundleclass://git.spielwiese/git.spielwiese.handlers.AboutHandler" command="_sRJFzQA8EeSpNIrzGNpOeg"/>
+  <bindingTables xmi:id="_sRJFxQA8EeSpNIrzGNpOeg" bindingContext="_sRJFwAA8EeSpNIrzGNpOeg">
+    <bindings xmi:id="_sRJFxgA8EeSpNIrzGNpOeg" keySequence="M1+Q" command="_sRJFwwA8EeSpNIrzGNpOeg"/>
+    <bindings xmi:id="_sRJFyQA8EeSpNIrzGNpOeg" keySequence="M1+O" command="_sRJFxwA8EeSpNIrzGNpOeg"/>
+    <bindings xmi:id="_sRJFzAA8EeSpNIrzGNpOeg" keySequence="M1+S" command="_sRJFygA8EeSpNIrzGNpOeg"/>
+    <bindings xmi:id="_sRJFzwA8EeSpNIrzGNpOeg" keySequence="M1+A" command="_sRJFzQA8EeSpNIrzGNpOeg"/>
+  </bindingTables>
+  <rootContext xmi:id="_sRJFwAA8EeSpNIrzGNpOeg" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_sRJFwQA8EeSpNIrzGNpOeg" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_sRJFwgA8EeSpNIrzGNpOeg" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_sRJFwwA8EeSpNIrzGNpOeg" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_sRJFxwA8EeSpNIrzGNpOeg" elementId="git.spielwiese.open" commandName="openCommand"/>
+  <commands xmi:id="_sRJFygA8EeSpNIrzGNpOeg" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_sRJFzQA8EeSpNIrzGNpOeg" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <addons xmi:id="_sRIesgA8EeSpNIrzGNpOeg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_sRIeswA8EeSpNIrzGNpOeg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_sRIetAA8EeSpNIrzGNpOeg" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_sRIetQA8EeSpNIrzGNpOeg" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_sRIetgA8EeSpNIrzGNpOeg" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_sRIetwA8EeSpNIrzGNpOeg" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_sRIeuAA8EeSpNIrzGNpOeg" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
