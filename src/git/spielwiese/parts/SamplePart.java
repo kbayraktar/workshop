@@ -55,6 +55,7 @@ public class SamplePart {
 		tableViewer.add("Sample item 3");
 		tableViewer.add("Sample item 4");
 		tableViewer.add("Sample item 5");
+		tableViewer.add("Sample item 6");
 		tableViewer.getTable().setLayoutData(new GridData(GridData.FILL_BOTH));
 	}
 
