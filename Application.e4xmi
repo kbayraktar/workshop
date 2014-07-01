@@ -7,6 +7,7 @@
           <children xsi:type="basic:PartStack" xmi:id="_sRJs1QA8EeSpNIrzGNpOeg">
             <children xsi:type="basic:Part" xmi:id="_sRJs1gA8EeSpNIrzGNpOeg" contributionURI="bundleclass://git.spielwiese/git.spielwiese.parts.SamplePart" label="Sample Part"/>
           </children>
+          <children xsi:type="basic:Part" xmi:id="_CW57kAEEEeSsv88tu4dOFQ" elementId="workshop.part.0" contributionURI="bundleclass://git.spielwiese/git.spielwiese.parts.NewView" label="NEW View"/>
         </children>
       </children>
     </children>
