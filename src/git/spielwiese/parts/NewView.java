@@ -18,7 +18,8 @@ public class NewView {
 	
 	@PostConstruct
 	public void postConstruct(Composite parent) {
-		new Label(parent, SWT.None);
+		Label label = new Label(parent, SWT.None);
+		label.setText("Hallo Bernd");
 	}
 	
 	
