@@ -20,6 +20,9 @@ public class NewView {
 	public void postConstruct(Composite parent) {
 		Label label = new Label(parent, SWT.None);
 		label.setText("Hallo Bernd");
+		Label label1 = new Label(parent, SWT.None);
+		label1.setText("Hallo Orhan");
+		
 	}
 	
 	
