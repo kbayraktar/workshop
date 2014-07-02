@@ -1,5 +1,18 @@
 
 Das ist meine date
+SmartGit/Hg:3509): GLib-GObject-WARNING **: /build/buildd/glib2.0-2.38.1/./gobject/gclosure.c:697: unable to remove uninstalled invalidation notifier: 0x7f434d8c8be0 (0x7f4358a1f400)
+
+(SmartGit/Hg:3509): GLib-GObject-WARNING **: /build/buildd/glib2.0-2.38.1/./gobject/gclosure.c:697: unable to remove uninstalled invalidation notifier: 0x7f434d8c8be0 (0x7f4358a1f400)
+
+(SmartGit/Hg:3509): GLib-GObject-CRITICAL **: g_closure_add_invalidate_notifier: assertion 'closure->n_inotifiers < CLOSURE_MAX_N_INOTIFIERS' failed
+
+(SmartGit/Hg:3509): GLib-GObject-CRITICAL **: g_closure_add_invalidate_notifier: assertion 'closure->n_inotifiers < CLOSURE_MAX_N_INOTIFIERS' failed
+
+(SmartGit/Hg:3509): GLib-GObject-CRITICAL **: g_closure_add_invalidate_notifier: assertion 'closure->n_inotifiers < CLOSURE_MAX_N_INOTIFIERS' failed
+
+(SmartGit/Hg:3509): GLib-GObject-CRITICAL **: g_closure_add_invalidate_notifier: assertion 'closure->n_inotifiers < CLOSURE_MAX_N_INOTIFIERS' failed
+
+(SmartGit/Hg:3509): GLib-GObject-CRITICAL **: g_closure_add_invalidate_notifier: assertion 'closure->n_inotifiers < CLOSURE_MAX_N_INOTIFIERS' failed
 
 
 
