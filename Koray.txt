@@ -11,13 +11,13 @@ ALEXANDER
 
 
 
-Noch eine Änderung von LOthar dazu
+Noch eine ï¿½nderung von LOthar dazu
 
 
 
 
 Das ist meine date
-Nico hat eine Zeile eingefügt. Also Finger weg!
+Nico hat eine Zeile eingefï¿½gt. Also Finger weg!
 SmartGit/Hg:3509): GLib-GObject-WARNING **: /build/buildd/glib2.0-2.38.1/./gobject/gclosure.c:697: unable to remove uninstalled invalidation notifier: 0x7f434d8c8be0 (0x7f4358a1f400)
 
 Das ist die 3 Version
@@ -25,7 +25,7 @@ Das ist die 3 Version
 
 
 
-
+Hi Hiiiiiiii
 
 asdasdasd
 asd
